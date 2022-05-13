@@ -1,0 +1,2 @@
+# iCount_Left-Global
+_GUICtrlListView_SetExtendedListViewStyle($cListView_Left, $LVS_EX_FULLROWSELECT) _GUICtrlListView_SetColumnWidth($cListView_Left, 0, 83) _GUICtrlListView_SetColumnWidth($cListView_Left, 1, 83) _GUICtrlListView_SetColumnWidth($cListView_Left, 2, 83) ; Create initial array, replacement array and fill Left listview Global $aLV_List_Left[$iCount_Left + 1] = [$iCount_Left] Global $aLV_List_Left_Replace[$iCount_Left + 1] = [$iCount_Left] For $i = 1 To UBound($aLV_List_Left) - 1
